@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div id="maincontent">
-      <h1>this is a react app!</h1>
+      <h1>welcome to cento maker central!!</h1>
       <button onClick={() => setCount((count) => count + 1)}>
         count is {count}
       </button>
