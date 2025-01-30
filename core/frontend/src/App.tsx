@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div id="maincontent">
-      <h1>welcome to cento maker central!!</h1>
+      <h1>welcome to cento with friends!!</h1>
       <p>if you are curious what a cento is feel free to check out <a href="https://www.poetryfoundation.org/education/glossary/cento">this website</a></p>
       <button onClick={() => setCount((count) => count + 1)}>
         count is {count}
