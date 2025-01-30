@@ -8,6 +8,9 @@ function App() {
     <div id="maincontent">
       <h1>welcome to cento with friends!!</h1>
       <p>if you are curious what a cento is feel free to check out <a href="https://www.poetryfoundation.org/education/glossary/cento">this website</a></p>
+      <ul>
+        <li>here is some stuff in a list</li>
+      </ul>
       <button onClick={() => setCount((count) => count + 15)}>
         count is {count}
       </button>
