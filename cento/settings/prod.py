@@ -16,6 +16,8 @@ DJANGO_VITE = {
     }
 }
 
+DJANGO_VITE_DEV_MODE = False  # Ensure Vite dev mode is off
+
 
 # http://whitenoise.evans.io/en/stable/django.html#WHITENOISE_IMMUTABLE_FILE_TEST
 def immutable_file_test(path, url):
